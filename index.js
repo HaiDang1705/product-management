@@ -13,6 +13,9 @@ const port = process.env.PORT;
 app.set("views", "./views");
 app.set("view engine", "pug");
 
+// Nhúng file tĩnh
+app.use(express.static("public"));
+
 // ROutes - Gọi hàm
 route(app);
 
