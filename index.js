@@ -1,6 +1,10 @@
 const express = require('express');
+
 // ENV
 require("dotenv").config();
+
+const database = require("./config/database");
+database.connect();
 
 // Nhúng code chạy route vào
 const route = require("./routes/client/index.route");
