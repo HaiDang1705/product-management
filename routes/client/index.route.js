@@ -9,3 +9,5 @@ module.exports = (app) => {
     // routing products , controller là hàm
     app.use("/products", productRoutes);
 }
+
+// git push -u origin main
