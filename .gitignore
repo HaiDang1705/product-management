@@ -1,0 +1,6 @@
+# Dùng để ngăn thư mục đẩy lên git
+# dependencies
+/node_modules
+
+#misc
+.env
